@@ -1,0 +1,22 @@
+-- Synthetic example only.
+-- Replace the UUID with an auth.users record created in your own development project.
+
+-- insert into public.profiles (id, display_name, monthly_income, monthly_spending_limit)
+-- values ('00000000-0000-0000-0000-000000000001', 'Demo User', 5000, 2500);
+
+-- insert into public.financial_events (
+--   user_id,
+--   event_type,
+--   amount,
+--   category,
+--   description,
+--   planned
+-- )
+-- values (
+--   '00000000-0000-0000-0000-000000000001',
+--   'expense',
+--   45.00,
+--   'food',
+--   'Lunch',
+--   true
+-- );
